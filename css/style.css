@@ -1,0 +1,229 @@
+/*Everything*/
+*{
+	margin:0;
+	padding:0;
+
+}
+
+body{
+	background-color: #d4bbe2;
+}
+
+
+/*Logo*/
+.logo img{
+	float:left;
+	width: 6vw;
+	height: auto;
+	transition: width 2s, height 2s, transform 2s;
+}
+
+.logo img:hover{
+	transform:rotate(180deg);
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+	background-color: inherit;
+	float: right;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-top: 1vw;
+	margin-right: 2.5vh;
+	padding: 2vh 3vw;
+	transition: 0.3s;
+	font-size: 1.5vw;
+	font-family: Monaco;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #d4bbe2;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	background-color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: none;
+}
+
+/*Unscrollable Home*/
+.title h1 {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	font-size: 5.5vw;
+	line-height: calc(20px + 20vh);
+	text-shadow: 0 0 40px #fff, 0 0 15px #eccbe6, 0 0 60px #eccbe6, 0 0 10px #fff, 0 0 98px #eccbe6;
+	color: #000;
+	font-family: Arial;
+	animation: blink 8s infinite;
+	-webkit-animation: blink 12s infinite;
+	padding: 2vw;
+	border: 5px solid;
+}
+
+.title p{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	padding-top: 6vmax;
+	color:white;
+	font-size: 1.25vmax;
+
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #000;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+ 	text-shadow: 0 0 40px #fff, 0 0 15px #eccbe6, 0 0 60px #eccbe6, 0 0 10px #fff, 0 0 98px #eccbe6;
+    color: #fff;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #000;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+  	text-shadow: 0 0 40px #fff, 0 0 15px #eccbe6, 0 0 60px #eccbe6, 0 0 10px #fff, 0 0 98px #eccbe6;
+    color: #fff;
+  }
+}
+
+.heading{
+	display: block;
+	text-align: center;
+}
+
+.heading2 {
+	display: block;
+	text-align: center;
+}
+
+
+/*ABOUT PAGE*/
+.heading h1{
+	color:#fff;
+	font-family: Arial;
+	font-style: bold;
+	font-size: 5vmax;
+	text-shadow: 5px 5px #eccbe6;
+	padding: 2%;
+}
+
+.heading2 h1{
+	color:#fff;
+	font-family: Arial;
+	font-style: bold;
+	font-size: 5vmax;
+	text-shadow: 5px 5px #eccbe6;
+	padding: 2%;
+
+}
+
+.heading p{
+	color:#fff;
+	font-family: Monaco;
+	font-style: bold;
+	font-size:1.25vmax;
+	text-align: left;
+	padding-left: 15%;
+	padding-right: 15%;
+
+}
+
+.heading2 p{
+	color:#fff;
+	font-family: Monaco;
+	font-style: bold;
+	font-size:1.25vmax;
+	text-align: left;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.instagram{
+	margin-top: 3%;
+	text-align: center;
+}
+
+.mailinglist{
+	margin-top: 0.5%;
+	text-align: center;
+}
+
+.instagram a {
+	font-family: Arial;  
+	color:white;
+
+}
+
+.mailinglist a {
+	font-family: Arial;  
+	color:white;
+
+}
+
+
+.mailinglist a:hover{
+	color:#eccbe6;
+}
+.instagram a:hover{
+	color:#eccbe6;
+}
+
+/*Menu Picture*/
+.menupic {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.menupic img{
+	width:60vmax;
+	height:auto;
+}
+
+
+
+
+
